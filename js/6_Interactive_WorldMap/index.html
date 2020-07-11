@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#" />
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<title>Interactive_WorldMap</title>
+</head>
+
+<body>
+  <!-- <div style="text-align:center;"> -->
+  <!-- <svg id="map">
+    <g transform="translate(90,0)"></g>
+  </svg>
+  <svg id="cLegend" width="460" height="500">
+    <g transform="translate(90,50)"></g>
+  </svg> -->
+  <!-- </div> -->
+  <!-- <script src="./d3.v4.js"></script>
+  <script src="./d3.scale.chromatic.js"></script>
+  <script src="./d3.topojson.js"></script>
+  <script src="./d3.queue.js"></script> -->
+  <div  style="width: 100%; overflow: hidden;">
+      <div id="dataviz1" style="width: 1000px; float: left;"> Overview </div>
+      <div id="dataviz2" style="display: table-cell;"> Detail </div>
+  </div>
+  <!-- <div id="dataviz1"></div> -->
+  <!-- <div id="dataviz2"></div> -->
+
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script> -->
+  <script src="http://bl.ocks.org/micahstubbs/raw/8e15870eb432a21f0bc4d3d527b2d14f/a45e8709648cafbbf01c78c76dfa53e31087e713/d3-tip.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js'></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+  
+  <script src="./choropleth.js"></script>
+  <script src="./pcc2.js"></script>
+
+
+
+  <header>
+    <h2 style=>Interactive_WorldMap</h2>
+    <h3>  </h3>
+  </header>
+  <p>
+    This world map links the overview geo visualization of the entire world to the details of a selected country. The overview shown is shaded based on the population of the country and when hovered over, the tooltip will show the name and the exact population as well. The parallel coordinate plot shows the top attributes of each country in relative position to each other. When clicked on, the corresponding line in the parallel coordinate plot will be highlighted and it shows the population, area, net migration, GDP and infant mortality as details for each country. 
+    <br>
+  </p>
+
+</body>
+
+</html>

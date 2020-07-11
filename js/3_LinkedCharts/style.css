@@ -1,0 +1,178 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  width:50%;
+  height:80%; /*100% */
+  float: left;
+}
+
+#chart{
+  position: relative;
+  top: 8%;
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+#cLegend{
+  position: relative;
+}
+
+circle.airbnb {
+  /* fill: #e00007; */
+  opacity: 0.6;
+}
+
+.axis {
+  font-family: arial;
+  font-size: 0.7em;
+}
+
+text {
+  fill: black;
+  stroke: none;
+  position: relative;
+  left: 20%;
+  top: 3%;
+  font-family: 'futura';
+}
+
+.label {
+  font-size: 1.5em;
+}
+
+path {
+  /* fill: none; */
+  stroke: black;
+  stroke-width: 2px;
+}
+.tick {
+  fill: none;
+  stroke: black;
+}
+
+circle {
+  opacity: 0.9;
+  stroke: none;
+  /* fill: red; */
+}
+
+.line {
+  fill: none;
+  stroke: #e00007;
+  stroke-width: 1px;
+}
+
+.line2 {
+  fill: none;
+  stroke: #e00007;;
+  stroke-width: 2px;
+}
+
+/* .line2 {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+} */
+
+/* div.tooltip { 
+  position: absolute;     
+  text-align: center;     
+  width: 80px;          
+  height: 14px;         
+  padding: 2px;       
+  font: 12px sans-serif;    
+  background: #fff; 
+  border: 0px;        
+  pointer-events: none;     
+} */
+
+
+div.tooltip {	
+  position: absolute;			
+  text-align: center;			
+  width: 125px;					
+  height: 50px;					
+  padding: 2px;				
+  font: 12px sans-serif;	
+  font-weight: bold;	
+  color: white;
+  background: black;	
+  /* background: lightsteelblue;	 */
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
+
+.selected {
+  opacity: 0.2;
+}
+
+
+#legend {
+  padding: 1.5em 0 0 1.5em;
+}
+
+li.key {
+  border-top-width: 15px;
+  border-top-style: solid;
+  font-size: .75em;
+  width: 10%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+
+/* tooltip way  */
+
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: black;
+}
+
+.focus text {
+  font-size: 14px;
+}
+
+.tooltip {
+  fill: white;
+  stroke: #000;
+}
+
+.tooltip-date, .tooltip-likes {
+  font-weight: bold;
+}
+
+
+

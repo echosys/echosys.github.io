@@ -1,0 +1,6 @@
+
+theme: jekyll-theme-cayman
+title: Project Portfolio Page <br/> Lingtao Ge
+Description: 'I have an approximate knowledge of many things'
+plugins:
+  - jekyll-seo-tag
