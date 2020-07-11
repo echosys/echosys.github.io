@@ -1,0 +1,7 @@
+
+theme: jekyll-theme-cayman
+title: Project Portfolio Page <br/> William Ge
+Description: 'I have an approximate knowledge of many things'
+plugins:
+  - jekyll-seo-tag
+

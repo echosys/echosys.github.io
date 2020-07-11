@@ -1,0 +1,68 @@
+[
+  {
+    "startdate": "2015-06-01",
+    "enddate": "2018-12-01",
+    "title": "BS student at ASU",
+    "shorttitle": "UG student",
+    "type": "education",
+    "glyph": "star",
+    "description": "<ul><li>Database Management,</li><li>Foundations of Algorithms</li></ul>"
+  },
+   {
+    "startdate": "2018-12-01",
+    "enddate": "2019-12-01",
+    "title": "MS student at ASU",
+    "shorttitle": "MS student",
+    "type": "education",
+    "glyph": "star",
+    "description": "<ul><li>Data Mining</li><li>Web Mining</li></ul>"
+  },
+  {
+    "startdate": "2015-06-01",
+    "enddate": "2015-11-01",
+    "title": "Intern Software Engineer",
+    "shorttitle": "Intern Software Engineer",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Freescale Semiconductor</li><li>, Tempe, AZ</li></ul>"
+  },
+  {
+    "startdate": "2016-06-01",
+    "enddate": "2016-09-01",
+    "title": "Intern Software Engineer",
+    "shorttitle": "Intern Software Engineer",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>NXP Semiconductor</li><li>Chandler, AZ</li></ul>"
+  },
+  {
+    "startdate": "2017-01-01",
+    "enddate": "2017-08-01",
+    "title": "Intern Software Engineer",
+    "shorttitle": "Intern Software Engineer",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>, Edupoint Educational Systems</li><li>Mesa, AZ </li></ul>"
+  },
+  {
+    "startdate": "2018-06-01",
+    "enddate": "2018-09-01",
+    "title": "Intern Software Engineer",
+    "shorttitle": "Intern Software Engineer",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>General Motors</li><li>Phoenix, AZ </li></ul>"
+  },
+  {
+    "startdate": "2018-06-01",
+    "enddate": "2018-09-01",
+    "title": "Controlling exhaust gas recirculation in a turbocharged compression-ignition",
+    "shorttitle": "exhaust gas recirculation",
+    "type": "other",
+    "glyph": "star",
+    "description": "<ul><li>F02D41/0047</li><li>Diesel engine control</li></ul>"
+  }
+
+]
+
+
