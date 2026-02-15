@@ -326,3 +326,8 @@ ENV/
 # Rope project settings
 .ropeproject
 .metadata/.lock
+
+#################
+## IntelliJ IDEA / Android Studio
+#################
+.idea/
